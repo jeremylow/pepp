@@ -31,5 +31,4 @@ build: clean
 	python setup.py bdist_wheel
 
 upload: clean build
-	twine upload -r pypi dist/*
-
+	twine upload pypi dist/*
