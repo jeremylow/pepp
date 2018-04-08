@@ -1,0 +1,49 @@
+Collecting ipython
+  Using cached https://files.pythonhosted.org/packages/8f/d4/bca9b4b2eaa6a1801f366b562dd2fbda9554335105008f656e784a37aabb/ipython-6.3.0-py3-none-any.whl
+  Saved ./ipython-6.3.0-py3-none-any.whl
+Collecting backcall (from ipython)
+  Using cached https://files.pythonhosted.org/packages/84/71/c8ca4f5bb1e08401b916c68003acf0a0655df935d74d93bf3f3364b310e0/backcall-0.1.0.tar.gz
+  Saved ./backcall-0.1.0.tar.gz
+Collecting jedi>=0.10 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/50/ca/d71f5a427601c98eadabfd73104cacbec8cc230e8416158decf61a48b0c6/jedi-0.11.1-py2.py3-none-any.whl
+  Saved ./jedi-0.11.1-py2.py3-none-any.whl
+Collecting setuptools>=18.5 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/20/d7/04a0b689d3035143e2ff288f4b9ee4bf6ed80585cc121c90bfd85a1a8c2e/setuptools-39.0.1-py2.py3-none-any.whl
+  Saved ./setuptools-39.0.1-py2.py3-none-any.whl
+Collecting simplegeneric>0.8 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/3d/57/4d9c9e3ae9a255cd4e1106bb57e24056d3d0709fc01b2e3e345898e49d5b/simplegeneric-0.8.1.zip
+  Saved ./simplegeneric-0.8.1.zip
+Collecting prompt-toolkit<2.0.0,>=1.0.15 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/04/d1/c6616dd03701e7e2073f06d5c3b41b012256e42b72561f16a7bd86dd7b43/prompt_toolkit-1.0.15-py3-none-any.whl
+  Saved ./prompt_toolkit-1.0.15-py3-none-any.whl
+Collecting pexpect; sys_platform != "win32" (from ipython)
+  Using cached https://files.pythonhosted.org/packages/05/80/3a8f823aadc85a8ba3744d95ba591cbe999fbca5d97429a056fd82c4ea92/pexpect-4.4.0-py2.py3-none-any.whl
+  Saved ./pexpect-4.4.0-py2.py3-none-any.whl
+Collecting traitlets>=4.2 (from ipython)
+  Using cached https://files.pythonhosted.org/packages/93/d6/abcb22de61d78e2fc3959c964628a5771e47e7cc60d53e9342e21ed6cc9a/traitlets-4.3.2-py2.py3-none-any.whl
+  Saved ./traitlets-4.3.2-py2.py3-none-any.whl
+Collecting pygments (from ipython)
+  Using cached https://files.pythonhosted.org/packages/02/ee/b6e02dc6529e82b75bb06823ff7d005b141037cb1416b10c6f00fc419dca/Pygments-2.2.0-py2.py3-none-any.whl
+  Saved ./Pygments-2.2.0-py2.py3-none-any.whl
+Collecting decorator (from ipython)
+  Using cached https://files.pythonhosted.org/packages/e1/5a/53db15bf367d2028bdc6700dbdf1bdfab46b9f208b7516952817c0808118/decorator-4.2.1-py2.py3-none-any.whl
+  Saved ./decorator-4.2.1-py2.py3-none-any.whl
+Collecting pickleshare (from ipython)
+  Using cached https://files.pythonhosted.org/packages/9f/17/daa142fc9be6b76f26f24eeeb9a138940671490b91cb5587393f297c8317/pickleshare-0.7.4-py2.py3-none-any.whl
+  Saved ./pickleshare-0.7.4-py2.py3-none-any.whl
+Collecting parso==0.1.1 (from jedi>=0.10->ipython)
+  Using cached https://files.pythonhosted.org/packages/c6/2f/96f54499c920070ccc1bffaee115a6a0cf1a0e7ece34b8faa7ee632688dd/parso-0.1.1-py2.py3-none-any.whl
+  Saved ./parso-0.1.1-py2.py3-none-any.whl
+Collecting six>=1.9.0 (from prompt-toolkit<2.0.0,>=1.0.15->ipython)
+  Using cached https://files.pythonhosted.org/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-1.11.0-py2.py3-none-any.whl
+  Saved ./six-1.11.0-py2.py3-none-any.whl
+Collecting wcwidth (from prompt-toolkit<2.0.0,>=1.0.15->ipython)
+  Using cached https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+  Saved ./wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting ptyprocess>=0.5 (from pexpect; sys_platform != "win32"->ipython)
+  Using cached https://files.pythonhosted.org/packages/ff/4e/fa4a73ccfefe2b37d7b6898329e7dbcd1ac846ba3a3b26b294a78a3eb997/ptyprocess-0.5.2-py2.py3-none-any.whl
+  Saved ./ptyprocess-0.5.2-py2.py3-none-any.whl
+Collecting ipython-genutils (from traitlets>=4.2->ipython)
+  Using cached https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+  Saved ./ipython_genutils-0.2.0-py2.py3-none-any.whl
+Successfully downloaded ipython backcall jedi setuptools simplegeneric prompt-toolkit pexpect traitlets pygments decorator pickleshare parso six wcwidth ptyprocess ipython-genutils
