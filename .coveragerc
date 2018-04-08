@@ -1,0 +1,21 @@
+[run]
+omit=
+    venv
+    */python?.?/*
+    */site-packages/*
+    .tox/*
+    src/*
+
+include=
+    pepp/*
+
+branch = true
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+
+[html]
+directory = htmlcov
+
