@@ -1,0 +1,4 @@
+.coverage
+*.ipynb
+pip.log
+.pytest_cache/
