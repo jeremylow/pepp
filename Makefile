@@ -1,8 +1,10 @@
 help:
-	@echo "requirements    compile requirements"
-	@echo "envi            install requirements"
-	@echo "test            run tests"
+	@echo "build           build dist files"
 	@echo "clean           clean up working directory"
+	@echo "envi            install requirements"
+	@echo "requirements    compile requirements"
+	@echo "test            run tests"
+	@echo "upload          upload to pypi"
 
 .PHONY: requirements
 requirements:
@@ -16,7 +18,7 @@ env:
 	pip install -Ur requirements/local.txt
 
 test:
-	pytest --cov
+	pytest -s --cov
 
 clean:
 	rm -fr build
