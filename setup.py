@@ -10,16 +10,16 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
+import pepp
+
 here = path.abspath(path.dirname(__file__))
 
 with open(path.join(here, 'readme.md'), encoding='utf-8') as f:
     long_description = f.read()
-with open(path.join(here, 'VERSION'), encoding='utf-8') as f:
-    package_version = f.read().strip()
 
 setup(
     name='pepp',
-    version=package_version,
+    version=pepp.__version__,
 
     description='Simpler pipenv without the virtualenv',
     long_description=long_description,
@@ -51,5 +51,9 @@ setup(
         'dev': ['check-manifest'],
         'test': ['coverage'],
     },
+    entry_points='''
+        [console_scripts]
+        pepp=pepp.cli:main
+    '''
 )
 
